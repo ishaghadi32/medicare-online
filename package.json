@@ -1,0 +1,14 @@
+{
+  "name": "medcare-hospital",
+  "version": "1.0.0",
+  "description": "Hospital appointment website with patient, doctor and admin portals and a live token queue",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "seed": "node --disable-warning=ExperimentalWarning seed.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "license": "MIT"
+}
